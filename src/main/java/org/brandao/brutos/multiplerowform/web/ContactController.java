@@ -9,12 +9,10 @@ import org.brandao.brutos.annotation.MappingTypes;
 import org.brandao.brutos.annotation.Result;
 import org.brandao.brutos.annotation.View;
 import org.brandao.brutos.annotation.web.RequestMethod;
-import org.brandao.brutos.annotation.web.ResponseErrors;
 import org.brandao.brutos.multiplerowform.entity.Contact;
 import org.brandao.brutos.web.RequestMethodTypes;
 import org.brandao.brutos.web.WebFlowController;
 
-@ResponseErrors(enabled=false)
 public class ContactController {
 
 	@Action("/")
