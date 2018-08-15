@@ -10,7 +10,7 @@ import org.brandao.brutos.annotation.Result;
 import org.brandao.brutos.annotation.View;
 import org.brandao.brutos.annotation.web.RequestMethod;
 import org.brandao.brutos.multiplerowform.entity.Contact;
-import org.brandao.brutos.web.RequestMethodTypes;
+import org.brandao.brutos.annotation.web.RequestMethodTypes;
 import org.brandao.brutos.web.WebFlowController;
 
 public class ContactController {
